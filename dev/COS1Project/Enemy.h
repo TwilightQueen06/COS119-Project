@@ -6,7 +6,9 @@ private:
 	int damage;
 
 public:
-	Enemy();
+	Enemy(int health, int damage);
+
+	void takeDamage(int damage);
 
 };
 
