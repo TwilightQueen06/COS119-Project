@@ -22,7 +22,21 @@ Each week I will summarize my milestone activity and progress by writing a stand
 
 ### Week 1
 
-Replace this paragraph with your stand up for this week. Use the prompts above to summarize your most recent milestone activity and work.
+### ⚙️ Overview
+
+This week, I focused on getting the initial structure of my project set up. I created my GitHub repository, cloned the project into Visual Studio, and started organizing my project board. I also created the initial issues for the project, including the inventory vector, enemy class, main menu, and player class.
+
+### 🌵 Challenges
+
+The biggest challenge this week was that I was unable to log in for the past two days, which limited the amount of time I had to work on the project. Because of that, I had to rush to get the initial setup completed. I focused on getting the repository, Visual Studio project, project board, and issues organized so I would have a solid starting point moving forward.
+
+### 🏆 Accomplishments
+
+I successfully got my GitHub repository connected to Visual Studio and established the initial organization for the project. I also learned more about breaking a larger project into individual issues that can be worked on separately instead of trying to build everything at once.
+
+### 🔮 Next Steps
+
+Before the next milestone, I plan to start working through the issues I created. My priority will be building the basic player and enemy classes and beginning the inventory system. Once those foundations are in place, I can move on to the main menu and continue building the project from there.
 
 ### Week 2
 
