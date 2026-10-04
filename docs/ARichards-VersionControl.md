@@ -76,15 +76,15 @@ Most repositories contain a .gitignore file.
 
 - What is the purpose of this file?
   <br>
-  [Fill in answer here]
+  The ".gitignore" file tells Git which files and folders should not be tracked or included in commits made by the user. It is to prevent unnecessary, temporary, or sensitive files from being added to the repository.
 
 - What is the "**.DS_Store**" file and why would you want to ignore it?
   <br>
-  [Fill in answer here]
+  ".DS_Store" is a hidden file automatically created by macOS to store information about how folders are displayed in Finder. It is not needed for the project so it should be ignored to prevent unnecessary files from being added to the repository.
 
 - What other file or folder would you want to add to a .gitignore file and why?
   <br>
-  [Fill in answer here]
+  I would add the "bin/" and "obj/" folders to the ".gitignore" because they contain generated build files that can be recreated when the project is built. They do not need to be stored in the Git repository.
 
 <br>
 
@@ -92,19 +92,19 @@ Most repositories contain a .gitignore file.
 
 Replace the example references below with your own links and recommended resources. It is acceptable to provide multiple links for a single topic and to use material provided to you in this class. You are encouraged to link to your own independent research as well.
 
-[ Research Summary: What resource(s) did you find most helpful this past week and why? ]
+The Git documentation was the most helpful resource I found because it provides clear explanations of Git, version control, and the commands used in Terminal. The GitHub documentation was also helpful for understanding how Git connects to GitHub using HTTPS and how repositories are cloned and synchronized.
 
 **Terminal Commands**  
-[Site Address](https://www.someaddress.com/full/url/)
+[Git Reference - Command Documentaion](https://git-scm.com/docs?utm_source=chatgpt.com)
 
 **Three Types of Version Control**  
-[Site Address](https://www.someaddress.com/full/url/)
+[Git - About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control.html?utm_source=chatgpt.com)
 
 **Git Commands**  
-[Site Address](https://www.someaddress.com/full/url/)
+[Git Reference - Command Documentation](https://git-scm.com/docs?utm_source=chatgpt.com)
 
 **Connecting to GitHub using Terminal**  
-[Site Address](https://www.someaddress.com/full/url/)
+[Github - About Remote Repositories](https://docs.github.com/en/get-started/git-basics/about-remote-repositories?utm_source=chatgpt.com)
 
 **Using .gitignore and Why it's Important**  
-[Site Address](https://www.someaddress.com/full/url/)
+[Git - gitignore Documentation](https://git-scm.com/docs/gitignore/?utm_source=chatgpt.com)
