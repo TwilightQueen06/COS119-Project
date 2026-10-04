@@ -69,7 +69,7 @@ List the correct Git commands to do the actions listed below in Terminal. Replac
 **3. Connecting to GitHub using Terminal.**
 HTTPS is the the correct way to connect to GitHub in this course. Describe how you connect to GitHub from Terminal using this protocol. What steps do you take?
 
-[ Describe the steps to connect Terminal to a GitHub repo here ]
+To connect Terminal to Github repository using HTTPS, I first clone the repo using its HTTPS URL with git clone. Then I use git config to set my Github username and email. After making changes to the files, I use git add to stage the changes, git commit -m to commit the changes, and the git push to push everything to the repository on Github.
 
 **4. Using .gitignore and Why it's Important**  
 Most repositories contain a .gitignore file.
