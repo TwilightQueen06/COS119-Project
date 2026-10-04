@@ -23,23 +23,23 @@ List the correct Terminal commands to do the actions listed below. Replace **CMD
 
 **The last bullet provides an example**.
 
-- [clear]: Clear the Screen
-- [pwd]: Print the "Working Directory"
-- [ls]: List files and folders
-- [ls -a]: List files and folders, including invisible files
-- [ls -lh]: List all files and folders, in human readable form
-- [cd [directory]]: Change directory
-- [ cd /]: Change directory, go to root directory
-- [ cd ~ ]: Change directory and go to user home directory
-- [ cd .. ]: Change directory, go up one folder level
-- [ cd ../.. ]: Change directory, go up two folder levels
-- [ cd~/Desktop ]: Change directory to my desktop!
+- clear : Clear the Screen
+- pwd : Print the "Working Directory"
+- ls : List files and folders
+- ls -a : List files and folders, including invisible files
+- ls -lh : List all files and folders, in human readable form
+- cd [directory] : Change directory
+- cd / : Change directory, go to root directory
+- cd ~ : Change directory and go to user home directory
+- cd .. : Change directory, go up one folder level
+- cd ../.. : Change directory, go up two folder levels
+- cd~/Desktop : Change directory to my desktop!
 
 **2. Using Terminal...**
 
 **Folder Drop:** Try typing "cd" followed by a space, and then drag a folder into terminal and press return. Test this out and describe your results below.
 
-[  ]
+ From my testing, I have noticed that typing "cd" and then dragging a folder changes what directories Terminal looks through. 
 
 ## Topic: Version Control & Git
 
@@ -47,15 +47,19 @@ Version control, also known as revision control, records changes to a file or se
 
 **1. There are three types of version control.**
 
-[ Name & describe the three types of version control here.]
+ Local Version Control : Tracks different versions of files on a single local computer.
+
+Centralized Version Control: Stores the version history on a central server that users access to retrieve and submit changes.
+
+Distributed Version Control: Gives each user a complete copy of the repository and its history, allowing changes to be made locally and synchronized with a remote repository. Git is an example of this.
 
 **2. Using Terminal, there are also essential Git commands to know.**
 
 List the correct Git commands to do the actions listed below in Terminal. Replace CMD with the correct command and keep or enhance the brief description.
 
-- [ CMD ]: Clone a repository
-- [ CMD ]: Set-up a global user name
-- [ CMD ]: Set-up a global email address (to match my GitHub account email)
+- git clone REPOSITORY-URL : Clone a repository
+- git config --global user.name "Your Name" : Set-up a global user name
+- git config --global user.email "your-email@example.com" : Set-up a global email address (to match my GitHub account email)
 - [ CMD ]: Shows the current state of your directory and staging area
 - [ CMD ]: Add modified files to the next commit
 - [ CMD ]: Make a commit with a new message
