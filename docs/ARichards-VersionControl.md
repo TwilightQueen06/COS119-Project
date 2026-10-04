@@ -60,11 +60,11 @@ List the correct Git commands to do the actions listed below in Terminal. Replac
 - git clone REPOSITORY-URL : Clone a repository
 - git config --global user.name "Your Name" : Set-up a global user name
 - git config --global user.email "your-email@example.com" : Set-up a global email address (to match my GitHub account email)
-- [ CMD ]: Shows the current state of your directory and staging area
-- [ CMD ]: Add modified files to the next commit
-- [ CMD ]: Make a commit with a new message
-- [ CMD ]: Show my commit history
-- [ CMD ]: Show Git's help screen
+- git status : Shows the current state of your directory and staging area
+- git add . : Add modified files to the next commit
+- git commit -m "Your Commit message" : Make a commit with a new message
+- git log : Show my commit history
+- git help : Show Git's help screen
 
 **3. Connecting to GitHub using Terminal.**
 HTTPS is the the correct way to connect to GitHub in this course. Describe how you connect to GitHub from Terminal using this protocol. What steps do you take?
